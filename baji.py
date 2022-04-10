@@ -15,9 +15,9 @@ def snap(phone):
         if "OK" in snapR.text:
             print ("sended sms:)")
         else:
-            print ("Error!")
+            print ("")
     except:
-        print ("Error!")
+        print ("")
 
 def shad(phone):
     #shad api
@@ -28,9 +28,9 @@ def shad(phone):
         if "OK" in shadR.text:
             print ("sended sms:)")
         else:
-            print ("Error!")
+            print ("")
     except:
-        print ("Error!")
+        print ("")
 
 def gap(phone):
     #gap api
@@ -40,9 +40,9 @@ def gap(phone):
         if "OK" in gapR.text:
             print ("sended sms:)")
         else:
-            print ("Error!")
+            print ("")
     except:
-        print ("Error!")
+        print ("")
 
 def tap30(phone):
     #tap30 api
@@ -53,9 +53,9 @@ def tap30(phone):
         if "OK" in tap30R.text:
             print ("sended sms:)")
         else:
-            print ("Error!")
+            print ("")
     except:
-            print ("Error!")
+            print ("")
 
 def emtiaz(phone):
     #emtiaz api
@@ -65,7 +65,7 @@ def emtiaz(phone):
         emR = requests.post("https://web.emtiyaz.app/json/login", headers=emH, data=emD, proxies=proxy)
         print ("sended sms:)")
     except:
-        print ("Error!")
+        print ("")
 
 def divar(phone):
     #divar api
@@ -76,9 +76,9 @@ def divar(phone):
         if "SENT" in divarR.text:
             print ("sended sms:)")
         else:
-            print ("Error!")
+            print ("")
     except:
-        print ("Error!")
+        print ("")
 
 def rubika(phone):
     #rubika api
@@ -89,9 +89,9 @@ def rubika(phone):
         if "OK" in ruR.text:
             print ("sended sms:)")
         else:
-            print ("Error!")
+            print ("")
     except:
-        print ("Error!")
+        print ("")
 
 def torob(phone):
     #torob api
@@ -101,9 +101,9 @@ def torob(phone):
         if "sent" in torobR.text:
             print ("sended sms:)")
         else:
-            print ("Error!")
+            print ("")
     except:
-        print ("Error!")
+        print ("")
 
 def bama(phone):
     #bama api
@@ -114,9 +114,9 @@ def bama(phone):
         if "0" in bamaR.text:
             print ("sended sms:)")
         else:
-            print ("Error!")
+            print ("")
     except:
-        print ("Error!")
+        print ("")
 
 def main():
     phone = str(input("Made by baji inter phone number (+98xxxxxxx): "))
